@@ -1,0 +1,10 @@
+num = eval(input("Enter a number: "))
+
+def is_this_number_twelve(num):
+    if num > 12:
+        print("The number is greater than 12")
+    elif num < 12:
+        print("The number is less than 12")
+    else:
+        print("The number is equal to 12")
+print(is_this_number_twelve(num))
